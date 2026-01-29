@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Meta Tags -->
+    <meta name="description" content="Dealer & Sales Resmi Yamaha Bandung - YAMAHA FORTUNA. Promo terbaru, harga terjangkau, proses cepat. Kunjungi sekarang!">
+    <meta name="keywords" content="Yamaha Fortuna, Dealer Yamaha Bandung, Harga Motor Yamaha, Promo Yamaha, Jual Motor Yamaha">
+    <meta name="author" content="Yamaha Fortuna">
+    
+    <!-- Open Graph / WhatsApp Preview -->
+    <meta property="og:title" content="YAMAHA FORTUNA | Dealer Resmi Yamaha Bandung">
+    <meta property="og:description" content="Promo Motor Yamaha Terbaru. Cash & Kredit DP Ringan. Klik untuk lihat harga!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80">
+    <meta property="og:url" content="https://www.yamahafortuna.com">
+    <meta property="og:type" content="website">
+
+    <title>YAMAHA FORTUNA | Dealer Resmi Yamaha Bandung</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- VARIABLES & RESET --- */
+        :root {
+            --yamaha-blue: #0048BA;
+            --yamaha-dark: #002a6c;
+            --white: #ffffff;
+            --light-gray: #f4f6f8;
+            --text-dark: #1a1a1a;
+            --text-gray: #555555;
+            --shadow: 0 4px 15px rgba(0,0,0,0.08);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-dark);
+            background-color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a { text-decoration: none; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+
+        /* --- UTILITIES --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: var(--yamaha-blue);
+            color: var(--white);
+            border: 2px solid var(--yamaha-blue);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--yamaha-dark);
+            border-color: var(--yamaha-dark);
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--white);
+            color: var(--yamaha-blue);
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 10px;
+            color: var(--yamaha-dark);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-gray);
+            margin-bottom: 50px;
+            font-size: 1.1rem;
+        }
+
+        .section-padding {
+            padding: 80px 0;
+        }
+
+        /* --- HEADER --- */
+        header {
+            background-color: var(--white);
+            box-shadow: var(--shadow);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            font-size: 2rem;
+            color: var(--yamaha-blue);
+        }
+
+        .logo-text h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            line-height: 1.2;
+        }
+
+        .logo-text span {
+            font-size: 0.85rem;
+            color: var(--text-gray);
+            font-weight: 400;
+            display: block;
+        }
+
+        .nav-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .nav-btn:hover {
+            background-color: #128C7E;
+            color: white;
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            background: linear-gradient(rgba(0, 42, 108, 0.85), rgba(0, 42, 108, 0.7)), url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--white);
+            margin-top: 80px;
+        }
+
+        .hero-content h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* --- PRICE LIST IMAGE --- */
+        .price-image-section {
+            background-color: var(--white);
+            text-align: center;
+        }
+        
+        .price-image-container {
+            max-width: 900px;
+            margin: 0 auto;
+            box-shadow: var(--shadow);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .price-note {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: var(--text-gray);
+            font-style: italic;
+        }
+
+        /* --- UNIT GRID --- */
+        .units-section {
+            background-color: var(--light-gray);
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            color: var(--yamaha-blue);
+            margin: 40px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            font-weight: 600;
+        }
+        
+        .category-title:first-child {
+            margin-top: 0;
+        }
+
+        .unit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .unit-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-top: 4px solid var(--yamaha-blue);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .unit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .unit-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+
+        .unit-price {
+            font-size: 1.25rem;
+            color: var(--yamaha-blue);
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .unit-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: var(--white);
+            border: 1px solid var(--yamaha-blue);
+            color: var(--yamaha-blue);
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .unit-btn:hover {
+            background-color: var(--yamaha-blue);
+            color: var(--white);
+        }
+
+        /* --- ADVANTAGES --- */
+        .advantages-section {
+            background-color: var(--white);
+        }
+
+        .adv-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .adv-item i {
+            font-size: 3rem;
+            color: var(--yamaha-blue);
+            margin-bottom: 20px;
+            background: #eef4ff;
+            padding: 20px;
+            border-radius: 50%;
+        }
+
+        .adv-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        /* --- CONTACT & FOOTER --- */
+        .contact-section {
+            background-color: var(--yamaha-dark);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .contact-box {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .phone-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 20px 0;
+            color: #25D366;
+            display: block;
+            text-decoration: none;
+        }
+
+        .wa-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .wa-float:hover {
+            background-color: #1ebc57;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #001a40;
+            color: #aaa;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 768px) {
+            .hero-content h2 {
+                font-size: 2rem;
+            }
+            
+            .navbar .nav-btn span {
+                display: none;
+            }
+            
+            .phone-number {
+                font-size: 1.8rem;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                padding: 0 20px;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. HEADER -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-area">
+                    <i class="fas fa-motorcycle logo-icon"></i> 
+                    <div class="logo-text">
+                        <h1>YAMAHA FORTUNA</h1>
+                        <span>Dealer & Sales Resmi Yamaha Bandung</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/62882000135622?text=Halo%20YAMAHA%20FORTUNA%2C%20saya%20ingin%20tanya%20promo%20dan%20harga%20motor%20Yamaha" class="nav-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Chat Sales</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>Promo Motor Yamaha Terbaru di<br>YAMAHA FORTUNA</h2>
+            <p>Cash & Kredit • DP Ringan • Proses Cepat</p>
+            <div class="hero-buttons">
+                <a href="#unit-list" class="btn btn-outline">Lihat Daftar Harga</a>
+                <a href="https://wa.me/62882000135622?text=Halo%20YAMAHA%20FORTUNA%2C%20saya%20ingin%20tanya%20promo%20dan%20harga%20motor%20Yamaha" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Hubungi WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. DAFTAR HARGA RESMI (GAMBAR) -->
+    <section class="section-padding price-image-section">
+        <div class="container">
+            <h2 class="section-title">Daftar Harga Resmi</h2>
+            <p class="section-subtitle">Harga OTR Bandung (Gambar Promo)</p>
+            
+            <div class="price-image-container">
+                <!-- GANTI URL DI BAWAH INI DENGAN GAMBAR DAFTAR HARGA ANDA -->
+                <img src="https://placehold.co/900x1200/EEE/31343C?text=Gambar+Daftar+Harga+Resmi+YAMAHA+FORTUNA" alt="Daftar Harga Yamaha Fortuna">
+            </div>
+            <p class="price-note">* Harga OTR Bandung • Angsuran sesuai leasing • Promo terbatas</p>
+        </div>
+    </section>
+
+    <!-- 4. DAFTAR UNIT & HARGA OTR (TEXT) -->
+    <section id="unit-list" class="section-padding units-section">
+        <div class="container">
+            <h2 class="section-title">Pilihan Motor Yamaha</h2>
+            <p class="section-subtitle">Spesifikasi & Harga OTR Bandung</p>
+
+            <!-- Skutik -->
+            <h3 class="category-title">Skutik</h3>
+            <div class="unit-grid">
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">NEW MIO M3 CW</div>
+                        <div class="unit-price">Rp 19.000.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20New%20Mio%20M3%20CW" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">FAZZIO HYBRID NEO</div>
+                        <div class="unit-price">Rp 24.500.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Fazzio%20Hybrid%20Neo" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">FAZZIO HYBRID LUX</div>
+                        <div class="unit-price">Rp 25.200.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Fazzio%20Hybrid%20Lux" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">FAZZIO NEO HYBRID CONNECTED</div>
+                        <div class="unit-price">Rp 23.550.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Fazzio%20Neo%20Hybrid%20Connected" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">FREEGO 125 CONNECTED</div>
+                        <div class="unit-price">Rp 24.915.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Freego%20125%20Connected" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">LEXI LX 155</div>
+                        <div class="unit-price">Rp 26.550.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Lexi%20LX%20155" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">LEXI LX 155 S</div>
+                        <div class="unit-price">Rp 28.065.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Lexi%20LX%20155%20S" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">GRAND FILANO HYBRID NEO</div>
+                        <div class="unit-price">Rp 27.755.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Grand%20Filano%20Hybrid%20Neo" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">GRAND FILANO HYBRID LUX</div>
+                        <div class="unit-price">Rp 29.360.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Grand%20Filano%20Hybrid%20Lux" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+            </div>
+
+            <!-- NMAX Series -->
+            <h3 class="category-title">NMAX Series</h3>
+            <div class="unit-grid">
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">NMAX NEO</div>
+                        <div class="unit-price">Rp 33.790.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Nmax%20Neo" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">NMAX NEO S</div>
+                        <div class="unit-price">Rp 34.790.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Nmax%20Neo%20S" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">NMAX TURBO</div>
+                        <div class="unit-price">Rp 38.960.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Nmax%20Turbo" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">NMAX TURBO TECH MAX</div>
+                        <div class="unit-price">Rp 44.465.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Nmax%20Turbo%20Tech%20Max" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+            </div>
+
+            <!-- Aerox Series -->
+            <h3 class="category-title">Aerox Series</h3>
+            <div class="unit-grid">
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">AEROX ALPHA</div>
+                        <div class="unit-price">Rp 30.685.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Aerox%20Alpha" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">AEROX ALPHA CYBERCITY</div>
+                        <div class="unit-price">Rp 35.020.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Aerox%20Alpha%20Cybercity" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">AEROX ALPHA TURBO</div>
+                        <div class="unit-price">Rp 40.635.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Aerox%20Alpha%20Turbo" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">AEROX ALPHA TURBO ULTIMATE</div>
+                        <div class="unit-price">Rp 42.815.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Aerox%20Alpha%20Turbo%20Ultimate" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+            </div>
+
+            <!-- Sport & Premium -->
+            <h3 class="category-title">Sport & Premium</h3>
+            <div class="unit-grid">
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">WR 155</div>
+                        <div class="unit-price">Rp 40.675.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20WR%20155" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">ALL NEW XSR 155</div>
+                        <div class="unit-price">Rp 40.045.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20All%20New%20XSR%20155" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">XMAX CONNECTED</div>
+                        <div class="unit-price">Rp 68.660.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Xmax%20Connected" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+                <div class="unit-card">
+                    <div>
+                        <div class="unit-name">XMAX TECH MAX</div>
+                        <div class="unit-price">Rp 76.015.000</div>
+                    </div>
+                    <a href="https://wa.me/62882000135622?text=Halo%20Sales%20Yamaha%20Fortuna%2C%20saya%20ingin%20tanya%20tentang%20Xmax%20Tech%20Max" class="unit-btn" target="_blank">Tanya Sales</a>
+                </div>
+            </div>
+            
+            <p class="price-note" style="text-align: center;">* Harga OTR Bandung • Dapat berubah sesuai promo YAMAHA FORTUNA</p>
+        </div>
+    </section>
+
+    <!-- 5. KEUNGGULAN -->
+    <section class="section-padding advantages-section">
+        <div class="container">
+            <h2 class="section-title">Mengapa Beli di Yamaha Fortuna?</h2>
+            <p class="section-subtitle">Kami siap memberikan pelayanan terbaik untuk Anda</p>
+            
+            <div class="adv-grid">
+                <div class="adv-item">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Dealer Resmi Yamaha</h3>
+                    <p style="color: #666; font-size: 0.9rem;">Unit resmi bergaransi pabrik</p>
+                </div>
+                <div class="adv-item">
+                    <i class="fas fa-wallet"></i>
+                    <h3>Cash & Kredit</h3>
+                    <p style="color: #666; font-size: 0.9rem;">Pembelian fleksibel sesuai kebutuhan</p>
+                </div>
+                <div class="adv-item">
+                    <i class="fas fa-coins"></i>
+                    <h3>DP Ringan</h3>
+                    <p style="color: #666; font-size: 0.9rem;">Angsuran ringan & tenor panjang</p>
+                </div>
+                <div class="adv-item">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Proses Cepat</h3>
+                    <p style="color: #666; font-size: 0.9rem;">Proses approve mudah & cepat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. KONTAK RESMI -->
+    <section class="section-padding contact-section">
+        <div class="container contact-box">
+            <h2>Konsultasi Gratis & Promo Terbaru</h2>
+            <p>Sales kami siap membantu Anda 7 hari seminggu.</p>
+            
+            <a href="https://wa.me/62882000135622?text=Halo%20YAMAHA%20FORTUNA%2C%20saya%20ingin%20tanya%20promo%20dan%20harga%20motor%20Yamaha" class="phone-number" target="_blank">
+                <i class="fab fa-whatsapp"></i> 0882-0001-35622
+            </a>
+            
+            <a href="https://wa.me/62882000135622?text=Halo%20YAMAHA%20FORTUNA%2C%20saya%20ingin%20tanya%20promo%20dan%20harga%20motor%20Yamaha" class="btn btn-primary" style="background-color: white; color: var(--yamaha-dark); border-color: white;" target="_blank">
+                Kirim Pesan Otomatis
+            </a>
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 YAMAHA FORTUNA – Dealer Resmi Yamaha Bandung</p>
+            <p style="font-size: 0.8rem; margin-top: 5px;">Harga dapat berubah sewaktu-waktu tanpa pemberitahuan.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/62882000135622?text=Halo%20YAMAHA%20FORTUNA%2C%20saya%20ingin%20tanya%20promo%20dan%20harga%20motor%20Yamaha" class="wa-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Smooth Scroll for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple Animation on Scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        // Apply animation to cards
+        const cards = document.querySelectorAll('.unit-card, .adv-item');
+        cards.forEach((el) => {
+            el.style.opacity = 0;
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
